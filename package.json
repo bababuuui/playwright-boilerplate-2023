@@ -1,0 +1,21 @@
+{
+  "name": "playwright-boilerplate-2023",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bababuuui/playwright-boilerplate-2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bababuuui/playwright-boilerplate-2023/issues"
+  },
+  "homepage": "https://github.com/bababuuui/playwright-boilerplate-2023#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.32.3"
+  }
+}
