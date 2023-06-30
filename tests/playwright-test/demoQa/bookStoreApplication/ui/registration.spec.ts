@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 import { LoginPage } from "../../../../../src/pageObject/demoQa/bookStore/pages/loginPage";
 import { RegisterPage } from "../../../../../src/pageObject/demoQa/bookStore/pages/registerPage";
-import { UsersUtils } from "../../../../../src/utils/users";
+import { UsersUtils } from "../../../../../src/utils/usersUtils";
 
 test("can  not create a new user if captcha is not solved ", async ({ page }) => {
   const registerPage = new RegisterPage(page);

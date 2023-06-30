@@ -32,6 +32,7 @@ export class RegisterPage extends BasePage {
     await this.lastNameInput.type(lastName);
     if (solveCaptcha) {
       chromium.use(pluginStealth());
+      //todo! solve captcha
       //  await this.captchaCheckBox.click();
     }
     await this.registerBtn.click();
